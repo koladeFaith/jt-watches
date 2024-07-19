@@ -22,40 +22,46 @@
     <!-- HEADER SECTION -->
     <header class="bg-white">
       <div class="wrapper">
+        <!-- RIGHT SIDE -->
         <div class="flex items-center justify-between py-10">
-          <div class="flex items-center justify-between gap-10">
-            <img class="md:w-[150px]" src="images/jt-logo.svg" alt="jt-logo" />
-            <p class="lg:">Brands</p>
-            <p class="sm:hidden">Inspiration</p>
-            <p class="sm:hidden">Categories</p>
-            <p class="sm:hidden">Sales</p>
+          <div class="flex items-center justify-between gap-3">
+            <a href=""
+              ><img class="w-[120px]" src="images/jt-logo.svg" alt="jt-logo"
+            /></a>
+            <nav class="hidden md:block md:flex md:gap-3">
+              <a class="">Brands</a>
+              <a class="">Inspiration</a>
+              <a class="">Categories</a>
+              <a>Sales</a>
+            </nav>
           </div>
-          <div class="text-[30px] md:hidden">
+
+          <!-- LEFT SIDE -->
+          <div class="text-[30px]">
             <i class="bi bi-search"></i>
             <i class="bi bi-list"></i>
+            <label for=""> </label>
           </div>
         </div>
-        <div class="flex justify-end items-center gap-2">
-          <i class="bi bi-envelope-check text-[30px]"></i>
-          <p class="text-[20px] text-gray-400">Cart</p>
-        </div>
+      </div>
+
+      <div class="flex justify-end items-center gap-2">
+        <i class="bi bi-envelope-check text-[30px]"></i>
+        <p class="text-[20px] text-gray-400">Cart</p>
       </div>
     </header>
     <!-- HERO SECTION -->
-    <section class="py-5">
+    <section
+      class="py-5 bg-[linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(images/Jt-watches.png)] bg-cover p-3 bg-center bg-no-repeat">
       <div class="relative overflow-hidden">
-        <div
-          class="bg-[url(images/Jt-watches.png)] w-[100%] bg-cover p-3 bg-center bg-no-repeat">
-          <p
+        <div class="w-[100%] flex justify-center items-center flex-col">
+          <h1
             class="capitalize text-[60px] font-bold text-center text-[#FFFFFF]">
             how to wear the watch the right way
-          </p>
-          <p
-            class="bg-yellow-600  rounded-[20px] inline-block text-white p-3">
+          </h1>
+          <button class="bg-main px-6 rounded-full inline-block text-white p-3">
             Read more
-          </p>
-          <div
-            class="absolute top-0 left-0 h-[100%] w-[100%] bg-[rgba(0,0,0,0.5)]"></div>
+          </button>
         </div>
       </div>
     </section>
